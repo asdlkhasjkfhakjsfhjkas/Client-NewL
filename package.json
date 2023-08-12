@@ -1,0 +1,47 @@
+{
+    "name": "hardcoremyhem",
+    "preductname": "HardcoreMyhem",
+    "version": "1.0.0",
+    "description": "Launcher HardcoreMyhem",
+    "main": "src/app.js",
+    "author": "ElFo2K",
+    "url": "https://shopalexis.xyz/launcherfiles/hardcore/",
+    "engines": {
+        "node": "^18.x.x"
+    },
+    "scripts": {
+        "start": "cross-env-shell NODE_ENV=dev electron .",
+        "build": "node build.js --obf=true",
+        "dev": "nodemon --exec npm start"
+    },
+    "license": "CC0",
+    "nodemonConfig": {
+        "ext": "js,html,css"
+    },
+    "dependencies": {
+        "minecraft-java-core": "^2.5.1",
+        "node-fetch": "^2.6.7",
+        "adm-zip": "^0.5.10",
+        "axios": "^1.3.3",
+        "battly-api": "^1.0.0",
+        "discord-rpc": "^4.0.1",
+        "electron-updater": "^5.0.1",
+        "minecraft-auth": "^1.0.34",
+        "node-fetch": "^2.6.7",
+        "npm": "^9.5.0",
+        "ping": "^0.4.2",
+        "socket.io-client": "^4.6.1",
+        "sweetalert": "^2.1.2"
+      },
+    "devDependencies": {
+        "cross-env": "^7.0.3",
+        "electron": "^20.0.0",
+        "electron-builder": "^23.0.3",
+        "javascript-obfuscator": "^4.0.2",
+        "nodemon": "^2.0.16"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vermuzui/Client-NewL.git"
+    }
+}

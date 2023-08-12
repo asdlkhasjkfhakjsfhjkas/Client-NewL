@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>HardcoreMyhem</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="settings-content">
+    <div class="tabs-settings-content active-tab-content">
+      <button class="add-account">Agregar una Cuenta</button>
+      <div class="accounts"></div>
+        <div class="information">
+        </div>
+            <div class="title-settings">Ajustes de RAM</div>
+            <div class="informacion-settings">Se recomienda usar para el evento: 5GB de RAM <br><span style="color: rgb(255, 0, 0);">HardcoreMyhem</span></div>
+            <div class="ram-info">
+              <div class="memory-slider" min="0.5" max="8" step="0.5">
+                <div class="slider-touch-left">
+                  <span value="0 Gb"></span>
+                </div>
+                <div class="slider-touch-right">
+                  <span value="0 Gb"></span>
+                </div>
+                <div class="slider-line">
+                  <span></span>
+                </div>
+              </div>
+              <div class="informacion-settings">La RAM por defecto son 2GB, por favor use la ram<br>recomendada por el desarrollador.</div>
+            </div>
+            <div class="title-settings">Ajustes de Audio</div>
+            <div class="java-settings information">  
+                Silenciar el Audio del Launcher:
+            <div style="display: block;position: absolute;top: 318px;left: 272px;" id="button"><button id="muteButton" class="mutebtn" onclick="muteBtn()"> Mutear Audio <img id="muteimg" style="width: 25px;margin-left: 6px;vertical-align: middle;" src="assets/images/logo/mute.svg"></button></div>
+            </div>
+            <div class="launcher-settings">Ajustes del Launcher</div>
+            <div class="java-settings">
+              <div class="information"></div>
+              <input type="checkbox" class="checkbox-settings" id="launcher-close"><label for="launcher-close">
+                <div class="checkround"></div>
+              </label><d style="color:white;"> Cerrar el launcher después de iniciar el juego. (Defecto)</d></br></br>
+              <input type="checkbox" class="checkbox-settings" id="launcher-close-all"><label for="launcher-close-all">
+                <div class="checkround"></div>
+              </label><d style="color:white;"> Cerrar el juego si el launcher está cerrado.</d></br></br>
+              <input type="checkbox" class="checkbox-settings" id="launcher-open"><label for="launcher-open">
+                <div class="checkround"></div>
+              </label><d style="color:white;"> Mantener el launcher abierto después de iniciar el juego.</d>
+            </div>
+                <div class="settings-content">
+                    <div class="tabs-settings-content2 active-tab-content2">
+                        <div class="information">
+                        </div>
+                        <div class="title-settings">Creditos Oficiales</div>
+                        <div class="logoazuriom java-settings information"> 
+                          Gracias a Fefedu973 por dejarnos utilizar el sistema de video en el Launcher ❤️.<br><br><br><br><br><br><br><br><br><br>Launcher Modificado por <FONT COLOR="orange"><b>ElFo2K</b> </FONT>| v1.0.0 <br><FONT COLOR="red"><b>HardcoreMyhem</b> </FONT>
+                          </div>
+        <button class="tab-btn-css save-tabs-btn default-tab-btn">Guardar</button>
+        <br>
+        <br>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

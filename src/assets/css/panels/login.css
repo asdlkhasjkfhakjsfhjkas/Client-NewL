@@ -1,0 +1,200 @@
+.login-card {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    background: #121212;
+    padding: 20px;
+    font: normal normal bold 19px/29px Poppins;
+    color: #E1E1E1;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.swal-overlay { font-family: "Poppins"} 
+
+.login-type {
+    display: grid;
+    padding: 0 7%;
+}
+
+.login-type-btn {
+    border-radius: 15px;
+    border: none;
+    margin: 2% 0;
+    height: 2em;
+    background-color: #ff4141;
+    box-shadow: 0 0 5px #ff3e3e;
+    color: #121212;
+    font: normal normal bold 19px/29px Poppins;
+    cursor: pointer;
+}
+
+.login-type-btn:hover {
+    background-color: #f62c2c;
+    box-shadow: 0 0 5px #ff5454;
+}
+
+.login-type-btn:disabled {
+    background-color: #ff4141;
+    box-shadow: 0 0 5px #ff3e3e;
+    cursor: default;
+}
+
+.login-type-btn:disabled:hover {
+    background-color: #ff4141;
+    box-shadow: 0 0 5px #ff3e3e;
+}
+
+.login-card-mojang {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    background: #121212;
+    padding: 0 20px;
+    font: normal normal bold 19px/29px Poppins;
+    color: #E1E1E1;
+    border-radius: 15px;
+    display: none;
+}
+
+.login-card-offline {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    background: #121212;
+    padding: 0 20px;
+    font: normal normal bold 19px/29px Poppins;
+    color: #E1E1E1;
+    border-radius: 15px;
+    display: none;
+}
+
+.info-login {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 10% 0;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.card-body {
+    margin: 10%;
+}
+
+.login-card-mojang-input {
+    text-align: center;
+    display: grid;
+}
+
+.login-card-offline-input {
+    text-align: center;
+    display: grid;
+}
+
+.login-mojang-input {
+    font-family: 'Poppins';
+    letter-spacing: 2px;
+    color: #fff;
+    border: solid 0px rgba(0, 0, 0, 0);
+    border-radius: 30px;
+    background-color: #373737;
+    padding: 0.375rem 0.75rem;
+}
+
+.loginDisclaimerText {
+    text-align: center;
+    font-size: 0.5em;
+}
+
+.btn-option-login {
+    width: 100%;
+    display: grid;
+    text-align: center;
+}
+
+.login-btn {
+    border-radius: 15px;
+    border: none;
+    margin: 2% 0;
+    height: 2em;
+    background-color: #ff4141;
+    box-shadow: 0 0 5px #ff3e3e;
+    color: #121212;
+    font: normal normal bold 19px/29px Poppins;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #f62c2c;
+    box-shadow: 0 0 5px #ff5454;
+}
+
+.cancel {
+    border: none;
+    background-color: #ffffff00;
+    color: #F1F1F1;
+    font: normal normal bold 19px/29px Poppins;
+    cursor: pointer;
+}
+
+.cancel:hover {
+    color: #373737;
+}
+
+.cancel:hover:disabled {
+    color: #F1F1F1;
+    cursor: default;
+}
+
+.logo {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 40%;
+    text-align: center;
+}
+
+.mojang {
+   display: none;
+}
+
+.logomanti{
+    background-image: url(./images/iconslogin/mantipapel.png);
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position:left;
+    left: 30px;
+    top: 100px;
+    -webkit-animation: scale-in-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: scale-in-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.elfologin {
+    position: absolute;
+    font: normal normal bold 27px/40px Poppins;
+    letter-spacing: 0px;
+    color: #eaedf0;
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    max-width: calc(100% - 158px);
+    font-weight: 600;
+    font-size: 18px;
+    left: 100px;
+    background-color: transparent;   
+    border: none;
+    transform: translate(0, -50%);
+    overflow: hidden;
+    line-height: 25px;
+    align-items: center;
+    height: 3em;
+    text-shadow: 0 0 1px #fff, 0 0 3px;
+}
