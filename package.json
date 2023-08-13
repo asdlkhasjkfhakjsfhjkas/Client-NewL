@@ -1,7 +1,7 @@
 {
     "name": "hardcoremyhem",
     "preductname": "HardcoreMyhem",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "Launcher HardcoreMyhem",
     "main": "src/app.js",
     "author": "ElFo2K",
